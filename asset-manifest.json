@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/differoute-styles-viewer/static/js/main.4769bf4c.js",
+    "main.js": "/differoute-styles-viewer/static/js/main.d6c16593.js",
     "index.html": "/differoute-styles-viewer/index.html",
     "static/media/close.svg": "/differoute-styles-viewer/static/media/close.96b5682e028a32c34574c966e0af6236.svg",
-    "main.4769bf4c.js.map": "/differoute-styles-viewer/static/js/main.4769bf4c.js.map"
+    "main.d6c16593.js.map": "/differoute-styles-viewer/static/js/main.d6c16593.js.map"
   },
   "entrypoints": [
-    "static/js/main.4769bf4c.js"
+    "static/js/main.d6c16593.js"
   ]
 }
