@@ -17,10 +17,19 @@ function App(props) {
       <GlobalStyles />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/button" element={<ButtonComponent />} />
-          <Route path="/loading" element={<LoadingComponent />} />
-          <Route path="/alert" element={<AlertComponent />} />
+          <Route path="/differoute-styles-viewer" element={<Main />} />
+          <Route
+            path="/differoute-styles-viewer/button"
+            element={<ButtonComponent />}
+          />
+          <Route
+            path="/differoute-styles-viewer/loading"
+            element={<LoadingComponent />}
+          />
+          <Route
+            path="/differoute-styles-viewer/alert"
+            element={<AlertComponent />}
+          />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
