@@ -17,19 +17,19 @@ function Main(props) {
           label="go to Button"
           type="text"
           active
-          onClick={() => navigate("/button")}
+          onClick={() => navigate("button")}
         />
         <Button
           label="go to Loading"
           type="text"
           active
-          onClick={() => navigate("/loading")}
+          onClick={() => navigate("loading")}
         />
         <Button
           label="go to Alert"
           type="text"
           active
-          onClick={() => navigate("/alert")}
+          onClick={() => navigate("alert")}
         />
       </Row>
     </Container>
