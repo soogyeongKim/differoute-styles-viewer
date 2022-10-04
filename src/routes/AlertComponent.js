@@ -1,4 +1,4 @@
-import { Alert, Button, Col, Grid, Row, Text } from "differoute-styles";
+import { Alert, Button, Col, Row, Text } from "differoute-styles";
 import React, { useState } from "react";
 import MainContainer from "../layouts/MainContainer";
 
@@ -34,6 +34,24 @@ function AlertComponent(props) {
   return (
     <MainContainer>
       {alert && <Alert {...alert} />}
+      <Button
+        label="세팅하기 귀찮을때 이걸로 확인"
+        type="text"
+        active
+        mb={30}
+        onClick={() => {
+          setAlert({
+            title: "알림",
+            content: "정말 삭제하시겠습니까?",
+            confirm: { onClick: closeModal },
+            cancel: { onClick: closeModal },
+            close: { onClick: closeModal },
+            option: {
+              flexDirection: "column",
+            },
+          });
+        }}
+      />
       <Col gap={16}>
         <Row gap={12} alignItems="center">
           <Text>title : </Text>
